@@ -4,11 +4,13 @@
  * Version 0.1 July, 2009
  * Copyright 2009 Ken Shirriff
  * http://arcfn.com
+ * 
+ * Modified for demo of Argon Port
  */
 
-#include "IRremote.h"
+#include "Argon_IRemote_Recv.h"
 
-int RECV_PIN = 11;
+int RECV_PIN = D2;
 
 IRrecv irrecv(RECV_PIN);
 
