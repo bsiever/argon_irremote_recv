@@ -1,1 +1,1 @@
-#include "IRRemote.h"
+#include <IRremote/IRRemote.h>

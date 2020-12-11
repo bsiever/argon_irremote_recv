@@ -8,7 +8,7 @@
  * Modified for demo of Argon Port
  */
 
-#include "Argon_IRemote_Recv.h"
+#include "Argon_IRremote_Recv.h"
 
 int RECV_PIN = D2;
 

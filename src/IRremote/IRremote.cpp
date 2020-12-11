@@ -37,7 +37,7 @@
         timer_config.interrupt_priority = 3;
 
         // Init the timer
-        uint32_t err_code = nrfx_timer_init(&timer4,&timer_config,timer_isr);
+        (void)nrfx_timer_init(&timer4,&timer_config,timer_isr);
         // if( err_code != NRF_SUCCESS ) Log.error("nrfx_timer_error");
 
         // Disable and clear the timer.
